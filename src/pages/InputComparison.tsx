@@ -134,7 +134,7 @@ const InputComparison = () => {
       {/* 側邊欄 */}
       <div className="w-80 space-y-4 flex-shrink-0">
         {/* 顯示設定 Card */}
-        <Card className="w-full sticky top-4">
+        <Card className="w-full">
           <CardHeader>
             <CardTitle>顯示設定</CardTitle>
           </CardHeader>
@@ -240,11 +240,6 @@ const InputComparison = () => {
           </CardHeader>
           <CardContent>
             <div className="space-y-6">
-              <p>
-                在 Textarea 中，如果使用 <code>white-space: pre-wrap;</code>，
-                會導致 <code>pre-wrap</code> 被忽略，只會顯示 <code>pre</code>
-                的效果。
-              </p>
               <p>&amp;nbsp; ：空格</p>
               <p>\t ：tab製表符</p>
               <p>\n ：換行</p>
